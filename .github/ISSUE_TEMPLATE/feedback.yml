@@ -85,9 +85,9 @@ body:
     attributes:
       label: "通用能力还是定制场景"
       options:
+        - "暂不确定，需要评估"
         - "通用能力，多类用户可能需要"
         - "特定业务 / 定制场景"
-        - "暂不确定，需要评估"
     validations:
       required: true
   - type: dropdown
@@ -96,9 +96,9 @@ body:
       label: "是否愿意参与验证"
       description: "选择愿意不等于承诺时间，也不需要留下私人联系方式。"
       options:
+        - "视测试范围和时间而定"
         - "愿意，可在本 Issue 中沟通"
         - "暂时不方便"
-        - "视测试范围和时间而定"
     validations:
       required: true
   - type: textarea
